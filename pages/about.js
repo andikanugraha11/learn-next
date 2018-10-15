@@ -1,5 +1,9 @@
+// pages/about.js
+
+import Layout from '../components/MyLayout.js'
+
 export default () => (
-    <div>
-       <a style={{ fontSize: 20 }}>About Page</a>
-    </div>
-  )
+    <Layout>
+       <p>This is the about page</p>
+    </Layout>
+)
